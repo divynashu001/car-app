@@ -1,0 +1,87 @@
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo-img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-address p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #2b0fba;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+
+  .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .footer-links li {
+    margin: 10px 0;
+  }
+
+  .footer-logo-img {
+    width: 100px; /* Smaller logo on mobile */
+    margin-bottom: 15px;
+  }
+
+  .footer-address p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-logo-img {
+    width: 80px; /* Even smaller logo on very small screens */
+  }
+
+  .footer-links a {
+    font-size: 14px; /* Slightly smaller font size for mobile */
+  }
+}
