@@ -18,7 +18,13 @@ const cardData = [
     title: "Dodge Durango",
     text: "A versatile SUV that blends luxury, power, and capability.",
     image: "https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/2024/durango/vlp/mobile/my24-dodge-durango-vlp-safetyandsecurity-blurbrail-2-mobile.jpg.image.500.jpg",
+  },{
+    id: 4,
+    title: "Dodge Charger",
+    text: "The Charger nameplate has appeared on mid-size cars, luxury coupes, hatchbacks, and sedans.",
+    image: "https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/2023/charger/gallery/desktop/MY23Charger_Gallery_1.jpg.image.1440.jpg",
   },
+
 ];
 
 export default function Cards() {
