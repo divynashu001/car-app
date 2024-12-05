@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     padding: 20px;
   }
+  .ser-card{
+    padding: 70px 20px 50px 20px;
+  }
   
   .card {
     width: 18rem;
@@ -52,6 +55,9 @@
       width: 90%; 
       max-width: 400px; 
     }
+    .ser-card{
+      padding-top: 90px;
+    }
   }
   
   @media (max-width: 1024px) {
@@ -61,6 +67,9 @@
   
     .card {
       width: 45%; 
+    }
+    .ser-card{
+      padding-top: 90px;
     }
   }
   

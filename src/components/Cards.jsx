@@ -29,7 +29,7 @@ const cardData = [
 
 export default function Cards() {
   return (
-    <>
+    <div className="ser-card">
       <h1>Services</h1>
       <div className="card-con">
         {cardData.map((card) => (
@@ -42,6 +42,6 @@ export default function Cards() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }

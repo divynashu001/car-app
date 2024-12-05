@@ -1,6 +1,6 @@
 .about {
     text-align: center;
-    padding: 20px;
+    padding: 70px 20px 55px 20px ;
   }
   
   .about-title {
@@ -69,6 +69,9 @@
     .text-overlay {
       width: 100%; 
     }
+    .about-us{
+      padding-top: 20px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -83,6 +86,9 @@
   
     .text-overlay h3 {
       font-size: 0.8rem; 
+    }
+    .about-us{
+      padding-top: 20px;
     }
   }
   
